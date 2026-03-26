@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import { auth as authApi, dashboard as dashApi, agent as agentApi } from './services/api.js';
 const api = axios.create({
   baseURL: '/api',
   timeout: 30000,
